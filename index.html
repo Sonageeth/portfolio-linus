@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linus Torvalds</title>
+    <link rel="stylesheet" href="./style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="https://static-00.iconduck.com/assets.00/user-icon-2048x2048-ihoxz4vq.png">
+    <link href="data:image/png;base64,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" rel="stylesheet">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav>
+        <ul type="none">
+            <li><a href="#overview">Overview</a></li>
+             <li><a href="#education">Education</a></li>
+             <li><a href="#awards">Awards</a></li>
+             <li><a href="#books">Books</a></li>
+             <li><a href="#videos">Videos</a></li>
+             <li><a href="#contact me">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1>Hey! <br> I Am <span>Linus Torvalds</span></h1>
+            <br>
+            <h3> "I am generally a very pragmatic person: that which works, works."</h3>
+
+        </div>
+
+    </section>
+    <br><br><br><br>
+    <!-- about me -->
+
+    <section id="overview">
+        <h1 class="heading">About Me</h1>
+        <div class="pic">
+        <img src="https://cdn.britannica.com/99/124299-050-4B4D509F/Linus-Torvalds-2012.jpg" alt="">
+
+        <div class="intro">
+            <p><b>Linus Benedict Torvalds  (listen); born 28 December 1969) is a Finnish software engineer who is the creator and, historically, the lead developer of the Linux kernel, used by Linux distributions and other operating systems such as Android. He also created the distributed version control system Git.
+
+                He was honored, along with Shinya Yamanaka, with the 2012 Millennium Technology Prize by the Technology Academy Finland "in recognition of his creation of a new open source operating system for computers leading to the widely used Linux kernel."[4] He is also the recipient of the 2014 IEEE Computer Society Computer Pioneer Award[5] and the 2018 IEEE Masaru Ibuka Consumer Electronics Award. Torvalds was born in Helsinki, Finland, the son of journalists Anna and Nils Torvalds,[7] the grandson of statistician Leo Törnqvist and of poet Ole Torvalds, and the great-grandson of journalist and soldier Toivo Karanko. His parents were campus radicals at the University of Helsinki in the 1960s. His family belongs to the Swedish-speaking minority in Finland. He was named after Linus Pauling, the Nobel Prize–winning American chemist, although in the book Rebel Code: Linux and the Open Source Revolution, he is quoted as saying, "I think I was named equally for Linus the Peanuts cartoon character", noting that this made him "half Nobel Prize–winning chemist and half blanket-carrying cartoon character".</b></p>
+
+        </div>
+    </div>
+    </section>
+<hr>
+<br><br><br><br>
+
+
+    <!-- education -->
+    <section id="education">
+        <h1 class="heading">Education</h1>
+        <div class="edu">
+            <img src="https://history-computer.com/wp-content/uploads/2022/10/shutterstock_413855794.jpg" alt="" >
+            <b><p id="p1">University of Helsinki, Finland</p></b>
+            <br>
+            <p class="para">Linus Torvalds developed his interest in computing by studying Computer Science at the University of Helsinki, the alma mater of his parents. His studies commenced in 1988, and he graduated with a Master’s in Computer Science in 1996. He worked as part of the Computer Science department’s NODES research group that continues to undertake research on distributed and networked systems and applications.
+             
+                As part of his studies, Torvalds learned about and worked with the Unix OS, whose multi-user, multitasking attributes influenced his development of Linux. His Master’s thesis was titled “Linux: A Portable Operating System.”</p>
+        
+            </div>
+    </section>
+<hr>
+    <br><br><br><br>
+    <!-- awards -->
+    <section id="awards">
+        <h1 class="heading">Awards</h1>
+        <div class="row">
+        <div class="box">
+            <img src="http://uploads.edubilla.com/awards-winners/58/ef/linus-torvalds.jpg" alt="">
+            <ul type="none">
+                <li> Award Name : Millennium Technology Prize</li>
+                <li>Year of Award : 2012</li>
+                <li>Award for : Technology</li>
+                <li>
+                    Location : Dunthorpe, Oregon, United States</li>
+            </ul>
+            <!-- <p>Linus Benedict Torvalds (born December 28, 1969) is a Finnish American software engineer, who was the principal force behind the development of the Linux kernel that became the most popular kernel for operating systems. He later became the chief architect of the Linux kernel and now acts as the project's coordinator. He also created the distributed revision control system git. He was honored, along with Shinya Yamanaka, with the 2012 Millennium Technology Prize by the Technology Academy Finland "in recognition of his creation of a new open source operating system for computers leading to the widely used Linux kernel".He is also the recipient of the 2014 IEEE Computer Society Computer Pioneer Award.</p> -->
+           
+          </div>
+
+          <div class="box">
+            <img src="http://uploads.edubilla.com/awards-logo/64/a2/computer-pioneer-award.jpg" alt="">
+            <ul type="none">
+                <li>Award Name : Computer Pioneer Award</li>
+                <li>Year of Award : 2014</li>
+                <li>Award for : Computers and Internet</li>
+                <li>Location : Dunthorpe, Oregon, United States</li>
+            </ul>
+          </div>
+
+          <div class="box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Linus-Torvalds_IEEE_Ibuka_Award_2018.jpg/1024px-Linus-Torvalds_IEEE_Ibuka_Award_2018.jpg" alt="">
+             <ul type="none">
+                
+                <li>Award Name: 2018 IEEE Masaru Ibuka Consumer Electronics Award from ICCE 2018 Conferenc</li>
+                 <li>Year of Award: 2018</li>
+                 <li>Award for : </li>
+                 <li>Location : Las Vegas</li>
+            </ul>
+        
+        </div>
+    </div>
+    </section>
+
+<hr>
+    <br><br><br><br>
+
+    <section id="books">
+        <h1 class="heading">Books</h1>
+        <div class="row1">
+
+            <div class="box1">
+                <img src="https://linuxwell.files.wordpress.com/2013/02/20130217-220105.jpg" alt="">
+                  <h4 class="heading1">Just for Fun
+                    The Story of an Accidental Revolutionary</h4>
+                    <br>
+                    <ul type="none">
+                        <li>ISBN:9780066620732, 0066620732</li>
+                        <li>Published:4 June 2002</li>
+                        <li>Publisher:HarperCollins</li>
+                        <li>Author:Linus Torvalds, David Diamond</li>
+                        <li>Page count:288</li>
+                        <li>Format:Paperback</li>
+                        <li>Language:English</li>
+
+                    </ul>
+            </div>
+
+            <div class="box1">
+                <img src="https://prodimage.images-bn.com/pimages/2940014514606_p0_v1_s1200x630.jpg" alt="">
+                 <h4 class="heading1">Biography of Linus Torvalds</h4>
+                 <br>
+                 <ul type="none">
+                    <li>ISBN:       9781614647096, 1614647097</li>
+                    <li>Published:  4 April 2012</li>
+                    <li>Publisher:  Hyperink</li>
+                    <li>Author:     Abdul Montaqim</li>
+                    <li>Page count: 36</li>
+                    <li>Format:     ebook</li>
+                    <li>
+                        Language:   English</li>
+
+                 </ul>
+            </div>
+
+
+            <div class="box1">
+                <img src="https://cdn.kobo.com/book-images/0492f1be-d7b3-4613-bf88-1ec28c048d8c/353/569/90/False/linus-torvalds-91-success-facts-everything-you-need-to-know-about-linus-torvalds.jpg" alt="">
+                 <h4 class="heading1">Linus Torvalds 91 Success Facts - Everything You Need to Know about Linus Torvalds</h4>
+                  <br>
+                 <ul type="none">
+                    <li>ISBN:9781488553011, 1488553017</li>
+                    <li>Published:May 2014</li>
+                    <li>Publisher:Emereo Pty Limited</li>
+                    <li>Page count:84</li>
+                    <li>Format:Paperback</li>
+                    <li>Language:English</li>
+
+                  </ul>
+            
+            
+                </div>
+
+        </div>
+    </section>
+<hr>
+    <br><br><br><br>
+
+    <section id="videos">
+        <h1 class="heading">Videos</h1>
+        <div class="row2">
+            <div class="box2">
+                <iframe width="400" height="200" src="https://www.youtube.com/embed/o8NPllzkFhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <h4>The mind behind Linux | Linus Torvalds - YouTube</h4>
+            </div>
+            <div class="box2">
+                <iframe width="400" height="200" src="https://www.youtube.com/embed/0m4hlWx7oRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h4>Pat Gelsinger and Linus Torvalds talk Linux, open ... - YouTube</h4>
+            </div>
+            <div class="box2">
+                <iframe width="400" height="200" src="https://www.youtube.com/embed/4XpnKHJAok8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h4>Tech Talk: Linus Torvalds on git - YouTube</h4>
+            </div>
+            <br><br>
+             </div>
+
+
+             <div class="row21">
+            <div class="box21">
+                <iframe width="400" height="200" src="https://www.youtube.com/embed/lPYdJ5fFxNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h4>Linus Torvalds - IEEE Computer Society</h4>
+            </div>
+            <div class="box21">
+                <iframe width="400" height="200" src="https://www.youtube.com/embed/eL7BqWDCd8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h4>Who Controls Linux After Linus Torvalds Dies? - YouTube</h4>
+            </div>
+            <div class="box21">
+                <iframe width="400" height="200" src="https://www.youtube.com/embed/wuRAov0d0x8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h4>Why Linus Torvalds use the distro he use - YouTube</h4>
+            </div>
+        </div>
+        
+    </section>
+
+
+<hr>
+    <br><br><br><br>
+
+    <section id="contact me">
+        <h1 class="heading">Contact Me</h1>
+        <div class="row3">
+            
+            <div class="box3">
+          
+          <ul type="none">
+            <li><i class="fa-solid fa-phone"> 088-5464942</i></li><br>
+            <li><i class="fa-solid fa-envelope"></i>torvalds@osdl.org.</li><br>
+            <li><i class="fa-brands fa-facebook">Linus Torvalds</i></li><br>
+            <li><i class="fa-brands fa-square-instagram"></i>@linus</li>
+            </div>
+            <!-- <div class="box3"> -->
+            <!-- <ul type="none">
+                <li><i class="fa-solid fa-phone"></i></li>
+                <li><i class="fa-light fa-envelope"></i> torvalds@osdl.org.</li>
+                <li><i class="fa-brands fa-facebook">Linus Torvalda</i></li>
+                <li><i class="fa-brands fa-square-instagram"></i>@linus</li>
+
+            </ul>
+        </div> -->
+        </div>
+
+    </section>
+    
+
+
+    <!-- footer -->
+    
+
+       
